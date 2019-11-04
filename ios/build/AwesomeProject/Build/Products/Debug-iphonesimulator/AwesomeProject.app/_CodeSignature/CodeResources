@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		uObpVEW726U+05gdX1KJJjF5H7s=
+		5CQM45hD1E8hVHoSe83iXwNfbsI=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AqWF6gAuaNKECK3oHhGT/q7Ia28=
+		SjBivvIhdaaE4Uy8NsmlTSE4f5g=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -129,6 +129,46 @@
 		<data>
 		KIdYdEE1A7zAgQ6ipE3BuDEsZlo=
 		</data>
+		<key>OpenSans-Bold.ttf</key>
+		<data>
+		HjcE7ki1/35YJIjq2HsFJJ8U3Bw=
+		</data>
+		<key>OpenSans-BoldItalic.ttf</key>
+		<data>
+		cgaMyQUIXKQG5jkcxQIawENomt4=
+		</data>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<data>
+		Wssd4lE6ypzk/PXR4eSarYbxiIw=
+		</data>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
+		<data>
+		Xmvg6vBvpntT7FxNQS2rCm9SSLo=
+		</data>
+		<key>OpenSans-Italic.ttf</key>
+		<data>
+		uNn1zrHms6cW2rC90JBhu8NJtB4=
+		</data>
+		<key>OpenSans-Light.ttf</key>
+		<data>
+		vw0TO2KCWeygEEnTD6YxYJTQC88=
+		</data>
+		<key>OpenSans-LightItalic.ttf</key>
+		<data>
+		+LbgGJiAGhe5vxH2GQNHzZF8RA0=
+		</data>
+		<key>OpenSans-Regular.ttf</key>
+		<data>
+		ur6NzpOj5ItsPHlyCgwEjojdH+c=
+		</data>
+		<key>OpenSans-SemiBold.ttf</key>
+		<data>
+		4lb4ORcY72HyU9+06Vu+s8WFevw=
+		</data>
+		<key>OpenSans-SemiBoldItalic.ttf</key>
+		<data>
+		tZ6Ryxm8Zg/7470SUBtHgRlqgxI=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -139,11 +179,11 @@
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest.dSYM/Contents/Resources/DWARF/AwesomeProjectTests</key>
 		<data>
-		cnkcb8/GCakJ6jgmipO6ikIcaEo=
+		536ZzFl6VVpjgMcaNO9QBQ2ja0k=
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest/AwesomeProjectTests</key>
 		<data>
-		J/4RXgOHsTODFLiei7OtD/UdhJM=
+		8EHKjqYZkX1YnWm+y/px/Y8nbmQ=
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest/Info.plist</key>
 		<data>
@@ -179,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uObpVEW726U+05gdX1KJJjF5H7s=
+			5CQM45hD1E8hVHoSe83iXwNfbsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Xkxc/0nWhqDKDDgQfB/1KUsSUmYxfms95L0tq+b23s=
+			Pu7XICt3Ez6+9NMjY1OHYE8R5yol11QE8Ur6sNpICPo=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -485,6 +525,116 @@
 			ua3cE7d8ZyDNSM0Y8PSoyuWJsbkQNjDCSd5gq3Lf1r4=
 			</data>
 		</dict>
+		<key>OpenSans-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HjcE7ki1/35YJIjq2HsFJJ8U3Bw=
+			</data>
+			<key>hash2</key>
+			<data>
+			95FqNzd+OFJ9QwYwPP6JtlO0mwprCwXGt1k/erAkjag=
+			</data>
+		</dict>
+		<key>OpenSans-BoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cgaMyQUIXKQG5jkcxQIawENomt4=
+			</data>
+			<key>hash2</key>
+			<data>
+			sItFTI5H57o8u1nA5qg0QXQ2PANNWB/hLLPG/DlCttM=
+			</data>
+		</dict>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wssd4lE6ypzk/PXR4eSarYbxiIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sy3B9Vt7RXwYHYqzwtNCJfbu+sCwGNbpq913Wg6ynbY=
+			</data>
+		</dict>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xmvg6vBvpntT7FxNQS2rCm9SSLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			RDVgKNGlphfaaATD9+O8RZWzhVban2xrsXH21T6yOkg=
+			</data>
+		</dict>
+		<key>OpenSans-Italic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uNn1zrHms6cW2rC90JBhu8NJtB4=
+			</data>
+			<key>hash2</key>
+			<data>
+			34zSGiexAK63VFTQxMsEu/XRzFRnbMNXGBib8Ht3QAA=
+			</data>
+		</dict>
+		<key>OpenSans-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vw0TO2KCWeygEEnTD6YxYJTQC88=
+			</data>
+			<key>hash2</key>
+			<data>
+			gNVRPiGvUu6sbliTrUfD99dLJGSYetZp0oaQ1F7q+iM=
+			</data>
+		</dict>
+		<key>OpenSans-LightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+LbgGJiAGhe5vxH2GQNHzZF8RA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZVTDhme7wwH/XL9rckrqaBW4IZsagIYYE3fU5UptxmY=
+			</data>
+		</dict>
+		<key>OpenSans-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ur6NzpOj5ItsPHlyCgwEjojdH+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			A3I27Uv1ioX2cHTBZdMIJg/WvgHIbX30556hbrJz+MU=
+			</data>
+		</dict>
+		<key>OpenSans-SemiBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4lb4ORcY72HyU9+06Vu+s8WFevw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xo2eGokIPNGwhJmT/i86zJqjO39Dn36GFocvaJfzBoQ=
+			</data>
+		</dict>
+		<key>OpenSans-SemiBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tZ6Ryxm8Zg/7470SUBtHgRlqgxI=
+			</data>
+			<key>hash2</key>
+			<data>
+			x0BBOhxZKG5CpJRnhEqZCBm6N/eO9ofSFYHpQXCAVdU=
+			</data>
+		</dict>
 		<key>PlugIns/AwesomeProjectTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -500,22 +650,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cnkcb8/GCakJ6jgmipO6ikIcaEo=
+			536ZzFl6VVpjgMcaNO9QBQ2ja0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			y25PELPU14BlZ3Q1UsNujetFtQmo2pHwJebH1zz0pmk=
+			vIxDO21EHBOX8KjYteRkjOzuty8rOR9Qi0zYPANl7IA=
 			</data>
 		</dict>
 		<key>PlugIns/AwesomeProjectTests.xctest/AwesomeProjectTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J/4RXgOHsTODFLiei7OtD/UdhJM=
+			8EHKjqYZkX1YnWm+y/px/Y8nbmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			X6aqzNpirs0KhsEbbcs2W06F4zkFgZpBsCw5T0vTbYo=
+			5XZgxXaLYCE/h7i1lwbzrSBpD4uNNYCWSqBrYMK7vYA=
 			</data>
 		</dict>
 		<key>PlugIns/AwesomeProjectTests.xctest/Info.plist</key>

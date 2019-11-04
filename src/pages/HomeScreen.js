@@ -1,0 +1,94 @@
+import React, {Component} from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Dimensions,
+  TouchableOpacity,
+  TextInput,
+  ImageBackground,
+  Image,
+
+} from 'react-native';
+
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import bgImage from '../img/background.jpg';
+const {width: WIDTH} = Dimensions.get('window')
+const {height: HEIGHT} = Dimensions.get('window')
+
+
+export default class HomeScreen extends Component {
+  render() {
+    return (
+      <ImageBackground source={bgImage} style={styles.backgroundContainer}>
+
+
+      <View style={styles.topContainer}>
+        <Text style={styles.logoText}>WOLFBERRY</Text>
+        <Icon name={'menu'} size={24} color={'#000000'}
+          style={styles.inputIcon}
+        />
+      </View>
+
+
+      <TouchableOpacity style={styles.inputContainer}>
+        <Text style={styles.input}>SEARCH SYMPTOMS</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.inputContainer}>
+        <Text style={styles.input}>SEARCH HERBS</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.inputContainer}>
+        <Text style={styles.input}>VIEW  EXPERTS</Text>
+      </TouchableOpacity>
+
+      </ImageBackground>
+    );
+  }
+}
+
+ const styles = StyleSheet.create({
+   backgroundContainer: {
+     flexGrow: 1,
+     width: null,
+     height: null,
+     justifyContent: 'center',
+     alignItems: 'center'
+   },
+   inputContainer: {
+     marginTop: 40,
+     width: 180,
+     height: 180,
+     backgroundColor: '#0A2707',
+   },
+   input: {
+     fontFamily: 'OpenSans-Bold',
+     letterSpacing: 3,
+     fontSize: 15,
+     paddingLeft: 37,
+     paddingTop: 71,
+     textAlign: 'auto',
+     color: '#ffffff'
+  },
+  iconContainer: {
+     marginTop: 15
+   },
+   inputIcon: {
+    position: 'absolute',
+    paddingLeft: 250,
+  },
+  logoText: {
+    color: '#000000',
+    fontSize: 14,
+    fontFamily: 'OpenSans-Bold',
+    letterSpacing: 2.5,
+    textAlign: 'center',
+    width: WIDTH-133,
+    height: HEIGHT-763,
+    top: 3
+  },
+  topContainer: {
+    marginTop: 30
+  }
+ });
