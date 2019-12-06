@@ -8,6 +8,8 @@ import {
   TextInput,
   ImageBackground,
   Image,
+  ScrollView,
+  Divider
 
 } from 'react-native';
 
@@ -17,9 +19,10 @@ const {width: WIDTH} = Dimensions.get('window')
 const {height: HEIGHT} = Dimensions.get('window')
 
 
-export default class HomeScreen extends Component {
+export default class ViewExp extends Component {
   render() {
     return (
+      <ScrollView>
       <ImageBackground source={bgImage} style={styles.backgroundContainer}>
 
       <View style={styles.topContainer}>
@@ -27,6 +30,42 @@ export default class HomeScreen extends Component {
         <Icon name={'menu'} size={24} color={'#000000'}
           style={styles.inputIcon}
         />
+        </View>
+
+      <View style={styles.topContainer}>
+        <Icon name={'arrow-left'} size={24} color={'#000000'}
+          style={styles.input2Icon}
+        />
+      </View>
+
+      <TouchableOpacity style={styles.inputContainer}>
+        <Icon name={'account'} size={40} color={'#ffffff'}
+          style={styles.userIcon}
+        />
+      </TouchableOpacity>
+
+
+      <View style={styles.labelContainer}>
+        <Text style={styles.label}>NAME</Text>
+        <Text style={styles.labelLight}>LABEL</Text>
+        <View style={styles.rowStar}>
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+        </View>
+        <Text style={styles.label}>ZIPCODE</Text>
 
       </View>
 
@@ -37,7 +76,27 @@ export default class HomeScreen extends Component {
       </TouchableOpacity>
 
       <View style={styles.labelContainer}>
-        <Text style={styles.label}>LABEL 1</Text>
+        <Text style={styles.label}>NAME</Text>
+        <Text style={styles.labelLight}>LABEL</Text>
+        <View style={styles.rowStar}>
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+          <Icon name={'star-half'} size={24} color={'#ffffff'}
+            style={styles.starIcon}
+          />
+        </View>
+        <Text style={styles.label}>ZIPCODE</Text>
+
       </View>
 
       <TouchableOpacity style={styles.inputContainer}>
@@ -47,21 +106,32 @@ export default class HomeScreen extends Component {
       </TouchableOpacity>
 
       <View style={styles.labelContainer}>
-        <Text style={styles.label}>LABEL 1</Text>
-      </View>
-
-      <TouchableOpacity style={styles.inputContainer}>
-        <Icon name={'account'} size={40} color={'#ffffff'}
-          style={styles.userIcon}
+        <Text style={styles.label}>NAME</Text>
+        <Text style={styles.labelLight}>LABEL</Text>
+      <View style={styles.rowStar}>
+        <Icon name={'star'} size={24} color={'#ffffff'}
+          style={styles.starIcon}
         />
-      </TouchableOpacity>
+        <Icon name={'star'} size={24} color={'#ffffff'}
+          style={styles.starIcon}
+        />
+        <Icon name={'star'} size={24} color={'#ffffff'}
+          style={styles.starIcon}
+        />
+        <Icon name={'star'} size={24} color={'#ffffff'}
+          style={styles.starIcon}
+        />
+        <Icon name={'star-half'} size={24} color={'#ffffff'}
+          style={styles.starIcon}
+        />
+      </View>
+        <Text style={styles.label}>ZIPCODE</Text>
 
-      <View style={styles.labelContainer}>
-        <Text style={styles.label}>LABEL 1</Text>
       </View>
 
 
       </ImageBackground>
+      </ScrollView>
     );
   }
 }
@@ -71,20 +141,21 @@ export default class HomeScreen extends Component {
      flexGrow: 1,
      width: null,
      height: null,
-     justifyContent: 'center',
+     justifyContent: 'space-around',
      alignItems: 'center'
    },
    topContainer: {
-     marginTop: 0
-
+     marginTop: 60,
+     marginBottom: -40
    },
    inputIcon: {
     position: 'absolute',
     paddingLeft: 240,
-    paddingTop: -180
+    paddingTop: -180,
+    top: 1
   },
    inputContainer: {
-     marginTop: 65,
+     marginTop: 60,
      marginBottom: 40,
      width: 77,
      height: 77,
@@ -116,17 +187,52 @@ export default class HomeScreen extends Component {
     top: 3
   },
   labelContainer: {
-    top: -17,
-    width: 70,
-    height: 30,
-    backgroundColor: '#A0A0A0',
-    borderRadius: 10
+    marginBottom: 10,
+    width: 200,
+    height: 200,
+    backgroundColor: '#0A2707',
+    flexDirection: 'column',
+    justifyContent: 'space-evenly',
   },
   label: {
     fontFamily: 'OpenSans-Bold',
-    fontSize: 10,
-    paddingTop: 8,
+    fontSize: 14,
+    letterSpacing: 3,
     textAlign: 'center',
-    color: '#ffffff'
-  }
+    color: '#ffffff',
+    justifyContent: 'center',
+  },
+  userIcon: {
+    position: 'absolute',
+    left: 18,
+    top: 18
+  },
+  labelLight: {
+    fontFamily: 'OpenSans-Bold',
+    fontSize: 14,
+    letterSpacing: 3,
+    textAlign: 'center',
+    color: '#A0A0A0',
+    justifyContent: 'center',
+  },
+  starIcon: {
+    position: 'relative',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingLeft: 5,
+    left: 25,
+    right: 25,
+    top: 3,
+
+  },
+  rowStar: {
+    flexDirection: 'row',
+  },
+  input2Icon: {
+  position: 'absolute',
+  left: -155,
+  paddingTop: -140,
+  top: -73,
+}
+
  });

@@ -1,0 +1,6 @@
+export const yelp_url = 'https://api.yelp.com/v3/businesses/search'
+export const location = 'Boston'
+export const radius = '100'
+export const categories = 'chinesemedicine'
+export const sort_by = 'distance'
+export const _api_key = 'kBVstLZD9U36U9sEvqOs9TBNTbhAk27L06kMQXwk1eWU5gLvHxNEgS6gtSEXUfYli68Mbgho8Q6uJ0qeSPcFgCwJ9DzRKkswkBT2af3NngbmeTZBR__-upEUYHPIXXYx'

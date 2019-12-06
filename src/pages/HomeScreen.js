@@ -7,19 +7,74 @@ import {
   TouchableOpacity,
   TextInput,
   ImageBackground,
+  ScrollView,
   Image,
 
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import { stringify } from 'query-string';
 import bgImage from '../img/background.jpg';
 const {width: WIDTH} = Dimensions.get('window')
 const {height: HEIGHT} = Dimensions.get('window')
 
 
 export default class HomeScreen extends Component {
+  constructor(){
+    super();
+    this.state =  {
+      data: null,
+      loaded: true,
+      error: null
+    }
+  }
+
+  baseURL = 'https://api.yelp.com/v3/businesses/search';
+
+  function objToQueryString(obj) {
+    const keyValuePairs = [];
+    for (const key in obj) {
+      keyValuePairs.push.(encodeURI)
+    }
+  }
+  getData = (ev) => {
+    this.setState({loaded:false, error:null})
+    let url = this.baseURL;
+    let h = new Headers();
+    h.append('Authorization', 'Bearer kBVstLZD9U36U9sEvqOs9TBNTbhAk27L06kMQXwk1eWU5gLvHxNEgS6gtSEXUfYli68Mbgho8Q6uJ0qeSPcFgCwJ9DzRKkswkBT2af3NngbmeTZBR__-upEUYHPIXXYx');
+    // const params = {
+    //   location: 'boston',
+    //   radius: '100',
+    //   categories: 'tcm, [AR, AT, AU, BE, BR, CA, CH, CL, DE, DK, ES, FI, FR, GB, HK, IE, IT, JP, MX, MY, NL, NO, NZ, PH, PL, PT, SE, SG, TR, TW, US]',
+    //   sort_by: 'distance',
+    //   price: '1,2,3'
+    // }
+    let req = new Request(url, {
+      headers: h,
+      method: 'GET',
+    });
+
+    fetch(`https://api.yelp.com/v3/businesses/search`)
+    fetch(req)
+    .then(response=>response.json())
+    .then(this.showData)
+    .catch(this.badStuff)
+
+  }
+  showData = (data) => {
+    this.setState({loaded:true, data: data});
+    console.log(data);
+
+  }
+  badStuff = (err) => {
+    this.setState({loaded:true, error: err.message});
+  }
+  componentDidMount() {
+
+  }
   render() {
     return (
+      <ScrollView>
       <ImageBackground source={bgImage} style={styles.backgroundContainer}>
 
 
@@ -40,15 +95,31 @@ export default class HomeScreen extends Component {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.inputContainer}>
-        <Text style={styles.input}>VIEW  EXPERTS</Text>
+        {!this.state.loaded && (
+          <Text> Loading </Text>
+        )}
+        <Text style={styles.input} onPress={this.getData}>VIEW  EXPERTS & CLINICS</Text>
+        {this.state.error && (<Text>{this.state.err}</Text>)}
       </TouchableOpacity>
-
+      {this.state.data && this.state.data.length > 0 && (
+        this.state.data.map(info =>(
+          <Text key={info.id} style ={styles.txt}>{info.name}</Text>
+        ))
+      )}
       </ImageBackground>
+      </ScrollView>
     );
   }
 }
 
  const styles = StyleSheet.create({
+   txt: {
+     fontFamily: 'OpenSans-Bold',
+     fontSize: 15,
+     textAlign: 'auto',
+     color: '#0A2707',
+    justifyContent: 'center'
+   },
    backgroundContainer: {
      flexGrow: 1,
      width: null,
@@ -67,7 +138,7 @@ export default class HomeScreen extends Component {
      letterSpacing: 3,
      fontSize: 15,
      paddingLeft: 37,
-     paddingTop: 71,
+     paddingTop: 65,
      textAlign: 'auto',
      color: '#ffffff'
   },
