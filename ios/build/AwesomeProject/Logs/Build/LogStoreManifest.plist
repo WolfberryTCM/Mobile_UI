@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0EC0A651-0B2D-4F48-9EB0-B88398A23119</key>
+		<key>0B446B53-B836-422A-9316-2BA4029DBCDF</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0EC0A651-0B2D-4F48-9EB0-B88398A23119.xcactivitylog</string>
+			<string>0B446B53-B836-422A-9316-2BA4029DBCDF.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,13 +30,45 @@
 			<key>signature</key>
 			<string>Building workspace AwesomeProject with scheme AwesomeProject and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>595980963.16385198</real>
+			<real>609443962.12070203</real>
 			<key>timeStoppedRecording</key>
-			<real>595980964.22243202</real>
+			<real>609443962.94165206</real>
 			<key>title</key>
 			<string>Building workspace AwesomeProject with scheme AwesomeProject and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>0EC0A651-0B2D-4F48-9EB0-B88398A23119</string>
+			<string>0B446B53-B836-422A-9316-2BA4029DBCDF</string>
+		</dict>
+		<key>B5D5AA03-95EC-45A7-8ABF-DA60FD7A83F6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5D5AA03-95EC-45A7-8ABF-DA60FD7A83F6.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AwesomeProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AwesomeProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace AwesomeProject with scheme AwesomeProject and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597792674.45375299</real>
+			<key>timeStoppedRecording</key>
+			<real>597792679.03912401</real>
+			<key>title</key>
+			<string>Building workspace AwesomeProject with scheme AwesomeProject and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B5D5AA03-95EC-45A7-8ABF-DA60FD7A83F6</string>
 		</dict>
 	</dict>
 </dict>

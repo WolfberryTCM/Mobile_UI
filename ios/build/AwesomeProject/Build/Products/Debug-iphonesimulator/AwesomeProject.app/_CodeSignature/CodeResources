@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		WF3Wk53n6hY8nwxsihjUiUOYQwU=
+		LePLwl2Ws3PcgB5sVSr62r0l3YM=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SjBivvIhdaaE4Uy8NsmlTSE4f5g=
+		ApRPRwMt5aSUcl/Zme6sT36sTG8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -183,15 +183,15 @@
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest/AwesomeProjectTests</key>
 		<data>
-		thcyBA8fbIRcSjX8YOfDDdrCAsc=
+		A5yfWO8dTUrDHqMVPQ6d/QftNEI=
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest/Info.plist</key>
 		<data>
-		f76V3qdM9Fmqvv4sxTiN70DX1Dw=
+		aPoSRZXVfUVPROXpnd1rMDnIrdA=
 		</data>
 		<key>PlugIns/AwesomeProjectTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		6bIsv3Tp2GnsIG78/wOk3q/cKKA=
+		LqH99bJldl/nTsIPSwFAeIIXyAQ=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -219,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WF3Wk53n6hY8nwxsihjUiUOYQwU=
+			LePLwl2Ws3PcgB5sVSr62r0l3YM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BhDx7wtg79nh2iOPFkdqlTIez8GcjjTqovpqXzL0RoI=
+			Tc4ybZtVC54UZnfCAtjOh6b5f5hUTHNsSEMiAavVHZM=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -661,33 +661,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			thcyBA8fbIRcSjX8YOfDDdrCAsc=
+			A5yfWO8dTUrDHqMVPQ6d/QftNEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nfCDoDBj6ZHOKOrQ7aq/PFgWlTIyLWAp1xu4q4ovFww=
+			ZpH6tl9WQp8m/OWjkqomFiV7gu1wL1PidZZyXfVzICQ=
 			</data>
 		</dict>
 		<key>PlugIns/AwesomeProjectTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f76V3qdM9Fmqvv4sxTiN70DX1Dw=
+			aPoSRZXVfUVPROXpnd1rMDnIrdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			q66tz0q2Mrhkbqf+w6+8KVTy+l5r9zmLeLsTvbV4HbY=
+			6rvuwijtn9ld038WN/zXuh+jJfJLMMwd5nEhiVk9Ors=
 			</data>
 		</dict>
 		<key>PlugIns/AwesomeProjectTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6bIsv3Tp2GnsIG78/wOk3q/cKKA=
+			LqH99bJldl/nTsIPSwFAeIIXyAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zM32vqoIbcroXQgkcomFMNn4lr8lz6iKFS2TKqZxaRc=
+			HXbqdPX3nwPq0KeHr40dOBRkIZ8cS1Srge9rxFiUp78=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

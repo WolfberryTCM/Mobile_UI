@@ -36,6 +36,8 @@ target 'AwesomeProject' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNSearchBar', :path => '../node_modules/react-native-search-bar'
+
   target 'AwesomeProjectTests' do
     inherit! :search_paths
     # Pods for testing

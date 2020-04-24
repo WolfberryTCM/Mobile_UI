@@ -13,6 +13,10 @@ import {
 
 import Splash from './src/pages/Splash';
 import HomeScreen from './src/pages/HomeScreen';
+import setSplash from './src/pages/setSplash';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import subView from './src/pages/subView';
 const {width: WIDTH} = Dimensions.get('window')
 const {height: HEIGHT} = Dimensions.get('window')
 
